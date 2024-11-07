@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('fondo.png'); /* Cambia 'fondo.jpg' al nombre de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Color del texto en blanco */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el contenido */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 200px; /* Ajusta el tamaño según necesites */
+    height: 200px; /* Asegura que sea cuadrado */
+    border-radius: 50%; /* Hace que el logotipo sea circular */
+    margin-bottom: 20px;
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px; /* Ajusta el tamaño de los íconos aquí */
+    height: 40px; /* Asegúrate de que también tenga altura fija para que sea cuadrado */
+}
+
+/* Elimina el efecto hover */
+.social-links img:hover {
+    transform: scale(1.2); /* Efecto al pasar el ratón */
+}
+
+/* Estilos para los enlaces de texto */
+.text-links {
+    margin-top: 20px;
+}
+
+.text-links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.text-links a:hover {
+    color: #888; /* Cambia de color al pasar el ratón */
+}
